@@ -26,4 +26,4 @@ This project implements the **K-Nearest Neighbors (KNN)** algorithm on the **MNI
 
 ---
 
-Let me know if you’d like me to tweak this or add more details! 🚀✨  
+
