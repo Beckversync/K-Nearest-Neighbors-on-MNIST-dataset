@@ -1,6 +1,4 @@
-Here’s a clean and professional description for the K-Nearest Neighbors on MNIST dataset project:  
 
----
 
 # 🧠 K-Nearest Neighbors on MNIST Dataset  
 
