@@ -1,27 +1,46 @@
+# 🧠 K-Nearest Neighbors on MNIST Dataset
 
+## 📖 Overview
+This project implements the **K-Nearest Neighbors (KNN)** algorithm on the **MNIST dataset** using **C++**. The MNIST dataset is a well-known collection of **handwritten digit images** (0-9). The goal of this project is to classify digits by identifying the most similar training examples through a **distance-based voting mechanism**.
 
-# 🧠 K-Nearest Neighbors on MNIST Dataset  
+## 🔹 Features
+- 📝 **MNIST Dataset**: Consists of 60,000 training images and 10,000 test images of handwritten digits.
+- 💻 **C++ Implementation**: Built from scratch with efficient data structures and algorithms.
+- 🧠 **KNN Algorithm**: Classifies digits by measuring distances to the nearest neighbors.
+- ⚡ **Performance**: Optimized for speed and memory usage in C++.
+- 📊 **Evaluation**: Measures accuracy and performance on the test set.
 
-## 📖 Overview  
-This project implements the **K-Nearest Neighbors (KNN)** algorithm on the **MNIST dataset**, a well-known collection of **handwritten digit images**. The goal is to classify digits (0-9) by finding the most similar training examples using **distance-based voting**.  
+## 🧠 How It Works
+1. **Load Data**: Parse and preprocess the MNIST images and labels.
+2. **Choose k**: Select the number of nearest neighbors for classification.
+3. **Distance Calculation**: Compute distances (e.g., **Euclidean distance**) between test and training points.
+4. **Vote**: Neighbors cast votes for their respective labels.
+5. **Predict**: Assign the most common label to the test image based on the votes.
 
-## 🔹 Features  
-- 📝 **MNIST Dataset**: 60,000 training images and 10,000 test images of handwritten digits.  
-- 🧑‍💻 **KNN Algorithm**: Classifies digits by comparing distances to nearest neighbors.  
-- 🛠️ **Implementation**: Built from scratch in Python, with optional libraries like **NumPy** and **scikit-learn**.  
-- 📊 **Evaluation**: Measures accuracy and performance on the test set.  
+## 🛠️ Requirements
+- **C++ Compiler** (GCC, Clang, MSVC, etc.)
+- **CMake** (Optional, for project building)
+- **Libraries**: STL (Standard Template Library), optional libraries for matrix operations like Eigen or OpenCV (if needed)
 
-## 🧠 How It Works  
-1. **Load Data**: Preprocess the MNIST images and labels.  
-2. **Choose k**: Select the number of nearest neighbors for classification.  
-3. **Distance Calculation**: Compute distances (e.g., **Euclidean**) between test and training points.  
-4. **Vote**: Neighbors “vote” for the most common label.  
-5. **Predict**: Assign the most popular label to the test image.  
+## 🚀 Results
+- **Accuracy**: Achieves strong classification performance on the MNIST test set.
+- **Flexibility**: Allows tuning of `k` and distance metrics for optimization.
+- **Efficiency**: Leverages C++ capabilities for fast computation and memory management.
 
-## 🚀 Results  
-- **Accuracy**: Achieves strong classification performance on the MNIST test set.  
-- **Flexibility**: Allows tuning of `k` and distance metrics for optimization.  
+## 📝 Usage
+```bash
+# Compile the program
+g++ knn_mnist.cpp -o knn_mnist
 
----
+# Run the program
+./knn_mnist
+```
+
+## 🔍 Future Improvements
+- 🧑‍🔬 Support for different distance metrics (Manhattan, Minkowski, etc.)
+- 🚀 Parallelization for faster distance computation
+- 🧠 Hyperparameter tuning for optimal `k`
+- 📈 Visualizations of classification results
+
 
 
