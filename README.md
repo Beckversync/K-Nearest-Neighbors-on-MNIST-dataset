@@ -1,7 +1,7 @@
 # 🧠 K-Nearest Neighbors on MNIST Dataset
 
 ## 📖 Overview
-This project implements the **K-Nearest Neighbors (KNN)** algorithm on the **MNIST dataset** using **C++**. The MNIST dataset is a well-known collection of **handwritten digit images** (0-9). The goal of this project is to classify digits by identifying the most similar training examples through a **distance-based voting mechanism**.
+The **K-Nearest Neighbors (KNN)** algorithm is implemented on the **MNIST dataset** using **C++**, a widely recognized collection of **handwritten digit images** (0-9). This project aims to classify digits by comparing them to the most similar training examples, using a **distance-based voting mechanism** to determine the final label.
 
 ## 🔹 Features
 - 📝 **MNIST Dataset**: Consists of 60,000 training images and 10,000 test images of handwritten digits.
